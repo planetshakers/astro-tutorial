@@ -46,4 +46,5 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 # landingpage-with-astor
+>>>>>>> a6878cfacf03f86c9e25b3c0bd720eeeb47ca016
 # astro-tutorial
