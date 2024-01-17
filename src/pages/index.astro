@@ -1,6 +1,5 @@
 ---
 import '../styles/global.css';
-import Navigation from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 const siteTitle = "私のAstroサイト";
@@ -15,11 +14,11 @@ const siteTitle = "私のAstroサイト";
 		<title>{siteTitle}</title>
 	</head>
 	<body>
-		<!-- <a href="/">ホーム</a>
-		<a href="/about/">概要</a>
-		<a href="/blog/">ブログ</a> -->
 		<Header />
 		<h1>{siteTitle}</h1>
 		<Footer />
+		<script>
+			import "../scripts/menu.js";
+		</script>	
 	</body>
 </html>
